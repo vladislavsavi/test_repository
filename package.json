@@ -1,0 +1,12 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/main.js --max-stack-size=100000000000000000000"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
